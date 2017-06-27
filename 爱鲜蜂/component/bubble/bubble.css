@@ -1,0 +1,28 @@
+
+.bubble{width: 100%;position: relative;font-size: .12rem;height: 4.5rem;}
+.categories-wrap{position: absolute;left: 0;width: .75rem;overflow-x: hidden;overflow-y: auto;height: 100%;}
+.categories>li{border-bottom: 1px solid #e1e1e1;line-height: .5rem;text-align: center;margin-right: .15rem;position: relative;background-color: #f8f8f8;}
+.categories>li>span{position: absolute;left: 0;top: .03rem;width: .08rem;height: .42rem;}
+.spanY{background: #fed700;}
+
+.bubble-right{height: 4.05rem;margin-left: .75rem;padding-left: .05rem;}
+.bubble-titles{border-bottom: 1px solid #c1c1c1;position: relative;}
+.bubble-titles>div{float: left;width: 50%;height: .5rem;line-height: .5rem;text-align: center;}
+.titles-sub>span{display: block;width: 100%;height: .22rem;border-right: 1px solid #c1c1c1;margin-top: .13rem;line-height: .22rem;}
+.bubble-titles>.titles-flpx-box{position: absolute;top: .51rem;bottom: 0;left: 0;right: 0;z-index: 10;background: rgba(0,0,0,.5);width: 100%;height: 4.05rem;display: none;}
+.titles-flpx{background: white;position: absolute;top: 0;z-index: 11;padding-bottom: .12rem;}
+.titles-flpx>span{float: left;margin: .1rem 0 0 .1rem;padding: .05rem .09rem;border: 1px solid #e0e0e0;color: #333;height: .3rem;line-height: .18rem;border-radius: .06rem;}
+.titles-flpx>.spanY{border: 1px solid #ffd600;background: #fff9d9;}
+.bubble-list{height: 100%;width: 100%;overflow-x: hidden;overflow-y: auto;font-size: .12rem;}
+.bubble-list-item{width: 100%;height: 1.1rem;padding: .06rem;border-bottom: 1px solid #dfdfdf;}
+.bubble-list-item>a{display: block;width: 100%;height: 100%;}
+.bubble-list-item>a>div{float: left;}
+.list-item-img{width: .96rem;height: 100%;}
+.list-item-img>img{width: 100%;}
+.list-item-warp{width: 1.15rem;position: relative;}
+.p1{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;font-size: .12rem;line-height: .3rem;}
+.item-div{height: .24rem;}
+.p2{color: #a6a6a6;font-size: .12rem;}
+.p3{color: #ff3d00;font-size: .12rem;line-height: .26rem;}
+.p3>span{color: #a6a6a6;text-decoration: line-through;}
+.item-add{position: absolute;bottom: 0;right: 0;border: 1px solid #dfdfdf;border-radius: 50%;width: .32rem;height: .32rem;line-height: .32rem;text-align: center;color: #ff4600;font-size: .25rem;}
